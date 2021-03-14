@@ -1,7 +1,12 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
 .main{
     height: 100%;
     width: 100%;
     position: absolute;
+    
 }
 
 .white{
@@ -51,7 +56,7 @@ img{
     width: 30%;
     text-align: center;
     border-radius: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     top: 62%;
     left: 35%;
     z-index: 2;
@@ -68,7 +73,7 @@ img{
 .address {
     text-align: center;
     font-size: 15px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     border-bottom: 1px solid black;
 }
 
@@ -88,26 +93,29 @@ img{
     height: 153%;
     width: 48%;
     text-align: left;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     padding: 5px;
 }
 
 
 .right{
     position: absolute;
-    right: 0px;
+    right: 25px;
     top: 0px;
     height: 200%;
     width: 48%;
     text-align: left;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left: 2px;
-    padding-right: 10px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    margin-left: 0px;
+    padding-right: 0px;
 }
 
 .work{
-    position: absolute;
+    position: relative;
     left: 7px;
+    border-right: 2px solid gray;
+    padding-bottom: 75px;
+    padding-right: 10px;
 }
 
 i{
